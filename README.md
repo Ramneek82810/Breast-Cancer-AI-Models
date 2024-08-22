@@ -16,15 +16,7 @@ To run this project, you'll need Python and the required libraries. Install the 
 bash
 Copy code
 pip install -r requirements.txt
-Usage
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/Breast-Cancer-Classification-and-EDA.git
-Navigate to the project directory:
-bash
-Copy code
-cd Breast-Cancer-Classification-and-EDA
+
 Run the script:
 bash
 Copy code
