@@ -1,36 +1,48 @@
-# Breast-Cancer-Classification-and-EDA
+## BREAST CANCER CLASSIFICATION
+- Breast cancer is the most common cancer among women worldwide accounting for 25% of all cancer cases and infected 2.1 million people in 2015.
+- Early diagnosis significantly increases the chance of survival.
+- The key challenge in cancer detection is how to classify tumours into malignant or benign machine learning techniques can dramatically improve the accuracy of diagnosis.
+- Research indicated that most experienced physicians can diagnose cancer with 79% accuracy.
 
-Breast Cancer Classification and EDA
-Project Overview
-This project involves exploratory data analysis (EDA) and classification on the Breast Cancer Wisconsin dataset. The aim is to analyze the features of the dataset, visualize relationships between them, and build a machine learning model to classify tumors as either malignant (cancerous) or benign (non-cancerous).
+  FIRST STAGE- any process which is simply extracting some of the cells out of the tumour.
+  
+When we say benign that means the tumour is kind of not spreading across the body so the patient is safe somehow if it's malignant that means it's cancerous. That means we need to intervene and actually stop cancer growth.
 
-Dataset
-The dataset used in this project is the Breast Cancer Wisconsin dataset, which is available in the scikit-learn library. It consists of 569 samples of breast tumor data, with 30 features describing characteristics of the cell nuclei present in the image.
+---
 
-Project Structure
-breast_cancer_classification.py: The main Python script for loading the dataset, performing EDA, and preparing the data for classification.
-requirements.txt: A file containing the required Python packages to run the project.
-Installation
-To run this project, you'll need Python and the required libraries. Install the dependencies using:
+What we do here in the machine learning aspect
+- We execute all these images and
+- We wanted to specify if that cancer out of these images is malignant or benign
 
-bash
-Copy code
-pip install -r requirements.txt
+# Support vector machine Classifier
+Near the max Margin Hyperplane, we don't know whether this cancer is malignant or benign.
 
-Run the script:
-bash
-Copy code
-python breast_cancer_classification.py
-Features
-Exploratory Data Analysis (EDA): Visualizes relationships between key features and the target variable using pair plots, scatter plots, and a heatmap.
-Data Preprocessing: Prepares the dataset by splitting it into training and testing sets.
-Model Preparation: Sets the foundation for training a machine learning model.
-Contributing
-Contributions are welcome! Please fork this repository and submit a pull request with your changes.
+That's why the support vector machine classifier is very unique in this sense. It's simply uses the points or the support vectors that are on the boundary to draw the boundary out to classify the classes.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+Support vector machines are really powerful techniques. Why? Because it's kind of an extreme algorithm. It just focus on the support of the suppor vectors or the points on the boundary and seperate them somehow
 
-Acknowledgments
-The dataset used in this project is provided by the UCI Machine Learning Repository.
-This project utilizes the scikit-learn library for loading the dataset and splitting the data.
+---
+---
+
+## BREAST CANCER DETECTION
+
+# Data Set Information
+Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. 
+
+Separating plane described above was obtained using Multisurface Method-Tree (MSM-T) [K. P. Bennett, "Decision Tree Construction Via Linear Programming." Proceedings of the 4th Midwest Artificial Intelligence and Cognitive Science Society, pp. 97-101, 1992], a classification method which uses linear programming to construct a decision tree. Relevant features were selected using an exhaustive search in the space of 1-4 features and 1-3 separating planes.
+
+# Attribute Information
+- ID Number
+- Dianosis ( M = Malignant, B = Benign)
+
+Ten real-valued features are computed for each cell nucleus:
+- radius (mean of distances from center to points on the perimeter)
+- texture (standard deviation of gray-scale values)
+- perimeter
+- area
+- smoothness (local variation in radius lengths)
+- compactness (perimeter^2 / area - 1.0)
+- concavity (severity of concave portions of the contour)
+- concave points (number of concave portions of the contour)
+- symmetry
+- fractal dimension ("coastline approximation" - 1)
