@@ -1,15 +1,19 @@
-## Breast Cancer Classification and Detection
+## Breast-Cancer Classification and Detection
+
 Breast cancer is the most common cancer among women globally, accounting for 25% of all cancer cases and affecting 2.1 million people in 2015. 🌍💪🎗️
 
 Early diagnosis plays a crucial role in improving survival rates. ✅🎯⏳
 
-Challenges in Cancer Detection
+## Challenges in Cancer Detection
+
 The primary challenge is classifying tumors into malignant (cancerous) or benign (non-cancerous). 💔🌸
+
 Machine learning techniques have proven to significantly improve diagnostic accuracy. 📊✨🔍🤖
 
 Research shows that even experienced physicians achieve about 79% diagnostic accuracy. ML methods can surpass this benchmark with advanced algorithms. 🚀🤖💡
 
-First Stage of Diagnosis
+## First Stage of Diagnosis
+
 Diagnosis begins by extracting some cells from the tumor via a Fine Needle Aspiration (FNA) biopsy. 💉🔬🔎
 
 Benign tumors: Not spreading, relatively safe. 😊💚🌼
