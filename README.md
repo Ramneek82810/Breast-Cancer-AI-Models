@@ -1,4 +1,4 @@
-## Breast-Cancer Classification and Detection
+# Breast-Cancer Classification and Detection
 
 Breast cancer is the most common cancer among women globally, accounting for 25% of all cancer cases and affecting 2.1 million people in 2015. 🌍💪🎗️
 
@@ -16,9 +16,11 @@ Research shows that even experienced physicians achieve about 79% diagnostic acc
 
 Diagnosis begins by extracting some cells from the tumor via a Fine Needle Aspiration (FNA) biopsy. 💉🔬🔎
 
-Benign tumors: Not spreading, relatively safe. 😊💚🌼
-Malignant tumors: Cancerous and need immediate intervention to stop the growth. ⚠️💔🚨
-Role of Machine Learning
+-Benign tumors: Not spreading, relatively safe. 😊💚🌼
+
+-Malignant tumors: Cancerous and need immediate intervention to stop the growth. ⚠️💔🚨
+
+## Role of Machine Learning
 Machine learning analyzes digitized tumor images to classify cancers as malignant or benign. 🖥️💡📸
 
 Support Vector Machine (SVM) Classifier
